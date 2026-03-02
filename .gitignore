@@ -1,0 +1,6 @@
+node_modules/
+.env
+frontend/build/
+backend/uploads/certificates/
+backend/uploads/templates/
+*.zip
