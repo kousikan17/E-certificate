@@ -136,6 +136,7 @@ const AdminCertificates = () => {
                           </span>
                         </td>
                         <td>{cert.issuer?.name || 'N/A'}</td>
+                        <td>{formatDate(cert.createdAt)}</td>
                         <td>
                           <span className={`badge ${cert.isValid ? 'badge-success' : 'badge-danger'}`}>
                             {cert.isValid ? 'Active' : 'Revoked'}
